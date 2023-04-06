@@ -18,6 +18,16 @@ function App() {
   	 e.preventDefault(); 
     setResult((result) => result - Number(inputRef.current.value)); 
   };
+
+// or
+
+// function minus(e) {
+//     e.preventDefault();
+//     const inputVal = inputRef.current.value;
+//     const newResult = result - Number(inputVal);
+//     setResult(newResult);
+//   }
+
  
   function times(e) { 
      e.preventDefault(); 
